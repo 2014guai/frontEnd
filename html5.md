@@ -2,8 +2,8 @@
 
 ## html5
 ### 浅析
-	* hmtl：超文本标记语言
-	* hmtl5：w3c对html的第五次修改
+	hmtl：超文本标记语言
+	hmtl5：w3c对html的第五次修改
 ### 新特性：
 #### 1. 语义化标签：
 * 新增：`section`-文章、`nav`-导航、`aside`-侧边栏
