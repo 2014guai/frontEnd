@@ -1,26 +1,14 @@
-#README.md
+# README.md
 
 # 概述
-	前端是啥？简单的说，呈现页面，实现用户交互。    
-	前端需要会啥？html：结构，构建页面；css：表现，样式美化；js：行为，用户交互；其他：SEO优化、性能优化、脚本压缩、缓存控制等。
+前端是啥？简单的说，呈现页面，实现用户交互。    
+前端需要会啥？html：结构，构建页面；css：表现，样式美化；js：行为，用户交互；其他：SEO优化、性能优化、脚本压缩、缓存控制等。
 ***
 
-#### [html5](./html5.md)	
+[## html5的新特性](/html/html5.md)	
 
-#### css
-* 盒模型
-* margin
-* BFC
-* 清除浮动的方法
-* 选择器优先级
-* link与@import的区别
-* 经典布局
-	* 圣杯布局
-	* 双飞翼布局
-* CSS3 transition transform animate
-* background-* 系列属性，这个不要忽视了，还是很重要的
-* position、z-index、display、float、margin
-* less与sass
+[## css](/css/css.md)
+
 #### js
 * 原型、闭包
 * 变量提升

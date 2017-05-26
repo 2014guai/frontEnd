@@ -1,6 +1,6 @@
 
 # CSS
-# 目录
+## 目录
 * 盒模型
 * margin
 * BFC
@@ -14,6 +14,8 @@
 * background-* 系列属性，这个不要忽视了，还是很重要的
 * position、z-index、display、float、margin
 * less与sass
+***
+
 ### 盒模型
 #### 对盒模型的理解：
 1. 当css没有设置box-sizing属性的时候，
