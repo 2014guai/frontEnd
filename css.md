@@ -14,8 +14,12 @@
 #### 盒子模型分为两类：W3C标准盒子模型和IE盒子模型 
 * w3c盒子模型：
 	* 属性高（height）和属性宽（width）这两个值不包含 填充（padding）和边框（border）
+	* 示例
+![](/images/w3c.JPG "标准盒模型")
 * IE盒子模型：
 	* 属性高（height）和属性宽（width）这两个值包含 填充（padding）和边框（border）
+	* 示例
+![](/images/IE.JPG "IE盒模型")
 #### 盒模型的层次关系：
 * 第1层：盒子的边框(border)，
 * 第2层：元素的内容(content)、内边距(padding)
