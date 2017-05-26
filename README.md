@@ -14,14 +14,19 @@
 * 兼容
 * 页面加载和解析过程
 #### css
-* 经典的圣杯布局、双飞翼布局
-* CSS3 transition transform animate
-* w3c盒子模型 和 IE盒子模型，box-sizing属性
+* 盒模型
+* margin
 * BFC
-* 优先级
-* less 与 sass
+* 清除浮动的方法
+* 选择器优先级
+* link与@import的区别
+* 经典布局
+	* 圣杯布局
+	* 双飞翼布局
+* CSS3 transition transform animate
 * background-* 系列属性，这个不要忽视了，还是很重要的
 * position、z-index、display、float、margin
+* less与sass
 #### js
 * 原型、闭包
 * 变量提升

@@ -2,8 +2,8 @@
 ## CSS
 ### 盒模型
 #### 对盒模型的理解：
-1. 当CSS没有设置box-sizing属性的时候，
-	* CSS中设置的width指的是content内容区的宽度
+1. 当css没有设置box-sizing属性的时候，
+	* css中设置的width指的是content内容区的宽度
 2. 设置box-sizing的时候：(总宽度:盒子所占位置大小)
 	* box-sizing:content-box(默认值)(标准模式)
 	    * 总宽度 = margin + border + padding + width 
@@ -12,7 +12,7 @@
 	    * width = 内容区 + padding + border 
 		* 为input设置样式时，常使用此方法
 #### 盒子模型分为两类：W3C标准盒子模型和IE盒子模型 
-* W3C盒子模型：
+* w3c盒子模型：
 	* 属性高（height）和属性宽（width）这两个值不包含 填充（padding）和边框（border）
 * IE盒子模型：
 	* 属性高（height）和属性宽（width）这两个值包含 填充（padding）和边框（border）
@@ -26,8 +26,8 @@
 ### margin
 * 负外边距(margin为负):   
 	* 理解：为正，边界向内收；为负，边界向外扩    
-		* 例如css绝对定位的元素定义的top、right、bottom、left等值是元素自身的边界到最近的已定位的祖先元素的距离，   
-		这个元素自身的边界指的就 是margin定义的边界，所以，如果margin为正的时候，那它的边界是向外扩的，    
+		* 例如css绝对定位的元素定义的top、right、bottom、left等值是元素自身的边界到最近的已定位的祖先元素的距离，
+		这个元素自身的边界指的就 是margin定义的边界，所以，如果margin为正的时候，那它的边界是向外扩的，
 		如果margin为负的时候，则它的边界是向里收的      
 * IE6双外边距问题
 	* 产生原因：margin与浮动元素的浮动方向、浮动边界的方向一致时          
@@ -52,7 +52,7 @@
 4. br清浮动	(不符合工作中：结构、样式、行为，三者分离的要求  IE6、IE7不支持)
 5. overflow（IE6不支持）
 6. 伪元素after
-``
+```
 .clearfix:before,.clearfix:after{
 	display:table,
 	content:"",
@@ -61,7 +61,7 @@
 .clearfix{
 	zoom:1
 }
-``
+```
 
 ### CSS选择器的优先级
 * `!important`	优先级最高
@@ -92,7 +92,7 @@
 	* left设置margin-left：100%，left：-200px
 	* right设置margitn-left：-200px，left：-200px
 	* middle设置width：100%
-````
+```
 <!DOCTYPE html>
 <html>
 	<head>
@@ -153,7 +153,7 @@
 	</body>
 </html>
 
-````
+```
 #### 2. 双飞翼布局
 * 优点：
 	* 内容部分(中间列)优先加载，且实现响应宽
@@ -167,7 +167,7 @@
 	3.两种布局方式的不同之处在于如何处理中间主列的位置：
 		* 圣杯布局是利用父容器的左、右内边距定位；
 		* 双飞翼布局是把主列嵌套在div后利用主列的左、右外边距定位
-````
+```
 <!DOCTYPE html>
 <html>
 	<head>
@@ -249,5 +249,5 @@
 		</div>
 	</body>
 </html>	
-````
+```
 
