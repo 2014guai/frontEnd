@@ -16,8 +16,8 @@
 * less与sass
 ***
 
-### 盒模型
-#### 对盒模型的理解：
+## 盒模型
+### 对盒模型的理解：
 1. 当css没有设置box-sizing属性的时候，
 	* css中设置的width指的是content内容区的宽度
 2. 设置box-sizing的时候：(总宽度:盒子所占位置大小)
@@ -27,14 +27,14 @@
 	    * 总宽度 = margin + width；
 	    * width = 内容区 + padding + border 
 		* 为input设置样式时，常使用此方法
-#### 盒子模型分为两类：W3C标准盒子模型和IE盒子模型 
+### 盒子模型分为两类：W3C标准盒子模型和IE盒子模型 
 * w3c盒子模型：
 	* 属性高（height）和属性宽（width）这两个值不包含 填充（padding）和边框（border）
 ![](/images/w3c.JPG "标准盒模型")
 * IE盒子模型：
 	* 属性高（height）和属性宽（width）这两个值包含 填充（padding）和边框（border）
 ![](/images/IE.JPG "IE盒模型")
-#### 盒模型的层次关系：
+### 盒模型的层次关系：
 * 第1层：盒子的边框(border)，
 * 第2层：元素的内容(content)、内边距(padding)
 * 第3层：背景图(background-image)
