@@ -44,14 +44,7 @@ parent:before {
 }
 ```
 
-### CSS选择器的优先级
-* `!important`	优先级最高
-* 内联			1000
-* id			100
-* 类、伪类		10
-* `*`			1
-* 元素			0
-* 继承样式		没有优先级
+
 
 ### link与@import的区别
 * 区别1：link是XHTML标签，除了加载CSS外，还可以定义RSS等其他事务；@import属于CSS范畴，只能加载CSS。
