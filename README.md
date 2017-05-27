@@ -16,11 +16,13 @@
 ***
 
 ## HTML
-* [html](/html/html.md)
+* [html简介、标签](/html/html.md)
 * [html5的新特性](/html/html5.md)	
 * [页面加载过程](/html/页面加载过程.md)
 
 ## CSS
+* [css简介、选择器](/css/css.md)
+* [文本样式](/css/文本样式.md)
 * [css盒模型](/css/css盒模型.md)
 * [经典布局](/css/经典布局.md)
 * [BFC](/css/bfc.md)
