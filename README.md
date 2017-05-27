@@ -22,6 +22,8 @@
 * [经典布局](/css/经典布局.md)
 
 ## javascript
+* [js基础](/javascript/js.md)
+* [运算符](/javascript/运算符.md)
 
 * 原型、闭包
 * 变量提升
