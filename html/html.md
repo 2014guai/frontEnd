@@ -60,10 +60,10 @@
 * 又名转义字符
 * 语法：&实体名字;
 * 例如：
-  * 大于号：`&gt;`
-  * 小于号：`&lt;`
-  * 空格： `&nbsp;`
-  * 版权声明: `&copy;`
+  * 大于号：`&gt;` &gt;
+  * 小于号：`&lt;` &lt;
+  * 空格： `&nbsp;` &nbsp;
+  * 版权声明: `&copy;` &copy;
 ## 图片
 * 语法
   * `<img src="文件相对路径" alt="文件描述"/>`
@@ -84,14 +84,14 @@
 * 作用：页面间跳转
 * 用法：`<a href="地址"></a>`
   * 跳转到一个外部的网页
-    * `<a href="http://www.baidu.com">去Baidu</a>`
+    * `<a href="http://www.baidu.com">去Baidu</a>`<a href="http://www.baidu.com">去Baidu</a>
   * 跳转到内部页面
-    * `<a href="相对路径">超链接</a>`
+    * `<a href="相对路径">超链接</a>`<a href="相对路径">超链接</a>
   * 跳转到当前页面的指定位置
-    * `<a href="#">回顶部</a>`
-    * `<a href="#id属性值">去指定位置</a>`
+    * `<a href="#">回顶部</a>`<a href="#">回顶部</a>
+    * `<a href="#id属性值">去指定位置</a>`<a href="#id属性值">去指定位置</a>
   * 发送邮件的超链接
-    * `<a href="mailto:邮件地址">发送邮件</a>`
+    * `<a href="mailto:邮件地址">发送邮件</a>`<a href="mailto:邮件地址">发送邮件</a>
 ## 内联框架
 * 作用：用于向页面中引入另一个页面
 * 用法：`<iframe src="外部页面地址或相对路径" name="" frameborder="0"></iframe>`
