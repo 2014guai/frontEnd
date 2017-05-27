@@ -14,9 +14,9 @@
 ## CSS
 * [css简介、选择器](/css/css.md)
 * [文本样式](/css/文本样式.md)
-* [css盒模型](/css/css盒模型.md)
+* [盒模型](/css/盒模型.md)
 * [经典布局](/css/经典布局.md)
-* [BFC](/css/bfc.md)
+* [浮动、文档流、BFC](/css/文档流、浮动、BFC.md)
 
 ## js
 
