@@ -7,6 +7,7 @@
 
 ## HTML
 * [w3c标准](/html/w3c标准)
+* [html](/html/html.md)
 * [html5的新特性](/html/html5.md)	
 * [页面加载过程](/html/页面加载过程.md)
 
