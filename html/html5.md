@@ -62,7 +62,7 @@
 ````
 	// CND引入html5shim框架
 	<!--[if lt IE 9]>
-		<script> src="http://html5shim.googlecode.com/svn/trunk/html5.js"</script>
+		<script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
 	<![endif]-->
 ````
 
