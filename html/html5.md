@@ -17,7 +17,7 @@
 ***
 
 ## 新特性：
-### 1. 语义化标签：
+### 语义化标签：
 * 新增：`section`-文章、`nav`-导航、`aside`-侧边栏
 * 作用：
 	* 对SEO友好
@@ -27,7 +27,7 @@
 	* 对其他非主流终端设备友好，移动端、机顶盒等
 * 实例：
 	![](/images/layout.png "html5经典页面设计")
-### 2. 离线缓存
+### 离线缓存
 * localStorage：本地离线缓存，长期储存数据，浏览器关闭后数据不会丢失
 * sessionStorage：浏览器关闭后数据自动删除
 * 四种离线储存的比较：
@@ -35,19 +35,19 @@
 	* `httpsession`：纯服务器储存
 	* `localStorage`：浏览器生成，储存在浏览器；生命周期：在页面关闭前
 	* `sessionStorage`：浏览器生成，储存在浏览器；生命周期：永久，直到用户主动删除
-### 3. 表单控件
+### 表单控件
 * input的type属性更多样化，如：`data`，`time`，`email`，`url`，`search`
 * input的属性
 	* `required`：必须填写的input
 	* `autofocus`：页面加载后，自动获取焦点
 	* `pattern`：验证输入字段(可以直接使用正则表达式)
-### 4. 音频、视频api
+### 音频、视频api
 * audio，video
-### 5. 画布api
+### 画布api
 * canvas
-### 6. 地理api
-### 7. 拖拽释放
-### 8. 新的技术
+### 地理api
+### 拖拽释放
+### 新的技术
 * webworker
 * websocket
 * geolocation
