@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="395d336f-2a5a-4eba-b8bb-50cc471adae9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/背景.md" afterPath="$PROJECT_DIR$/css/背景.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/js.md" afterPath="$PROJECT_DIR$/javascript/js.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +18,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
@@ -34,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/javascript/js.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-1653">
-                <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <first_editor relative-caret-position="96">
+                <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -118,12 +119,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="背景.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="背景.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/背景.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="315">
-                <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+              <first_editor relative-caret-position="576">
+                <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -192,13 +193,13 @@
         <option value="$PROJECT_DIR$/css/文档流、浮动、BFC.md" />
         <option value="$PROJECT_DIR$/css/css.md" />
         <option value="$PROJECT_DIR$/css/盒模型.md" />
-        <option value="$PROJECT_DIR$/css/背景.md" />
         <option value="$PROJECT_DIR$/html/表格.md" />
         <option value="$PROJECT_DIR$/html/表单.md" />
         <option value="$PROJECT_DIR$/html/html.md" />
         <option value="$PROJECT_DIR$/javascript/运算符.md" />
-        <option value="$PROJECT_DIR$/javascript/js.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/javascript/js.md" />
+        <option value="$PROJECT_DIR$/css/背景.md" />
       </list>
     </option>
   </component>
@@ -402,12 +403,12 @@
       <option name="presentableId" value="Default" />
       <updated>1495847621214</updated>
       <workItem from="1495847622588" duration="6943000" />
-      <workItem from="1495854610058" duration="11899000" />
+      <workItem from="1495854610058" duration="12272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18842000" />
+    <option name="totallyTimeSpent" value="19215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -645,17 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/背景.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="315">
-            <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/表格.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -700,22 +690,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/js.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-1653">
-            <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <first_editor relative-caret-position="552">
+            <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/javascript/js.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="552">
-            <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <first_editor relative-caret-position="96">
+            <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/背景.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="576">
+            <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
             <folding />
           </first_editor>
           <second_editor />
