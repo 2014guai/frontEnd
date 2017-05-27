@@ -9,14 +9,17 @@
 ## HTML
 * [html简介、标签](/html/html.md)
 * [html5的新特性](/html/html5.md)	
+* [表格](/html/表格.md)	
+* [表单](/html/表单.md)	
 * [页面加载过程](/html/页面加载过程.md)
 
 ## CSS
 * [css简介、选择器](/css/css.md)
 * [文本样式](/css/文本样式.md)
 * [盒模型](/css/盒模型.md)
+* [文档流、浮动、定位、BFC](/css/文档流、浮动、定位、BFC.md)
+* [背景](/css/背景.md)
 * [经典布局](/css/经典布局.md)
-* [文档流、浮动、BFC](/css/文档流、浮动、BFC.md)
 
 ## js
 
