@@ -102,8 +102,14 @@
   * 判断符号两侧值是否全部等，和不等类似，只不过全部等不会自动转换数据类型
   * 如果比较的两个值类型不同，则直接返回false
 * 注意：
-  * undefined衍生自null，所以`undefined == null; // true`;`undefined === null; // false`
-  * NaN不与任何值相等，包括它本身，所以`NaN == NaN; // false`,可以通过isNaN()来判断一个值是否为NaN
+  * 首先把javascript中的数据类型分成两组：
+  		*	String、Number、Boolean和Object
+  		*	Undefined和Null
+  		*	1与2之间的比较都为false 
+  		*	Undefined和Null之间的比较为true
+  		* NaN 不等于 NaN
+  		* undefined衍生自null，所以`undefined == null; // true`;`undefined === null; // false`
+      * NaN不与任何值相等，包括它本身，所以`NaN == NaN; // false`,可以通过isNaN()来判断一个值是否为NaN
 ## 条件运算符
 * 又名三目运算符，三元运算符
 * 语法：表达式1 ? 表达式2 : 表达式三

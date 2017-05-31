@@ -31,6 +31,8 @@
 * [JSON](/javascript/json.md)
 * [正则表达式](/javascript/regRep.md)
 * [常用的正则表达式](/javascript/常用的正则表达式.md)
+* [BOM](/javascript/BOM.md)
+* [DOM](/javascript/DOM.md)
 
 * 原型、闭包
 * 变量提升
