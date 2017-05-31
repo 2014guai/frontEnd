@@ -26,9 +26,9 @@
         * 重置按钮，可以将表单中的内容重置到默认值
     * 下拉列表：
       ```
-      <select name=""> --> 用来创建一个下拉列表
-        <optgroup label=""> --> 指定选项的分组，label用来指定分组的名字
-          <option value=""></option> ---> 用来创建下拉列表中的选项
+      <select name=""> // 用来创建一个下拉列表
+        <optgroup label=""> // 指定选项的分组，label用来指定分组的名字
+          <option value=""></option> // 用来创建下拉列表中的选项
         </optgroup>
       </select>
       ```

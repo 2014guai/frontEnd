@@ -38,11 +38,11 @@
   // a++
   var  a = 1;
   a++; // 1
-  console.log(a);// 2
+  console.log(a); // 2
   // ++a
   var a = 1;
-  ++a;// 2
-  console.log(a);// 2
+  ++a; // 2
+  console.log(a); // 2
 ```
 ## 逻辑操作符
 * `!`(逻辑非)
@@ -50,8 +50,8 @@
   * 如果对一个非布尔值进行非运算，则会先将其转换为布尔类型，再取反，返回布尔值
   * 例：
 ```
-  var str = 'abc';// String
-  str = !!str;// Boolean
+  var str = 'abc'; // String
+  str = !!str; // Boolean
 ```
 * `&&`(逻辑与)
   * 对"&&"符号两侧的值进行与运算

@@ -11,19 +11,26 @@
 * [html5的新特性](/html/html5.md)	
 * [表格](/html/table.md)	
 * [表单](/html/from.md)	
-* [页面加载过程](/html/page_loading_process.md)
+* [页面加载过程](/html/page-loading-process.md)
 
 ## CSS
 * [css简介、选择器](/css/css.md)
-* [文本样式](/css/text_style.md)
-* [盒模型](/css/box_model.md)
-* [文档流、浮动、定位、BFC](/css/text_float_float_position_bfc.md)
+* [文本样式](/css/text-style.md)
+* [盒模型](/css/box-model.md)
+* [文档流、浮动、定位、BFC](/css/text-float-float-position-bfc.md)
 * [背景](/css/background.md)
 * [页面布局](/css/layout.md)
 
 ## javascript
 * [js基础](/javascript/js.md)
 * [运算符](/javascript/operator.md)
+* [语句](/javascript/statement.md)
+* [对象](/javascript/object.md)
+* [函数](/javascript/function.md)
+* [数组](/javascript/array.md)
+* [JSON](/javascript/json.md)
+* [正则表达式](/javascript/regRep.md)
+* [常用的正则表达式](/javascript/常用的正则表达式.md)
 
 * 原型、闭包
 * 变量提升
