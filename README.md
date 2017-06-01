@@ -29,7 +29,7 @@
 * [对象](/javascript/04-object.md)
 * [函数](/javascript/04-function.md)
 * [数组](/javascript/04-array.md)
-* [操作数据](/javascript/05-js操作数据.md)
+* [操作数据](/javascript/05-操作数据.md)
 * [DOM](/javascript/02-DOM.md)
 * [DOM事件](/javascript/02-DOM事件.md)
 * [BOM](/javascript/03-BOM.md)
