@@ -2,50 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="395d336f-2a5a-4eba-b8bb-50cc471adae9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript/05-math-date.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01-ajax.md" afterPath="$PROJECT_DIR$/01-ajax.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02-MVC&amp;&amp;MVVM.md" afterPath="$PROJECT_DIR$/02-MVC&amp;&amp;MVVM.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-事件机制与线程机制.md" afterPath="$PROJECT_DIR$/03-事件机制与线程机制.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-性能优化.md" afterPath="$PROJECT_DIR$/04-性能优化.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-模块化.md" afterPath="$PROJECT_DIR$/05-模块化.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/06-LESS.md" afterPath="$PROJECT_DIR$/06-LESS.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07-http&amp;&amp;https.md" afterPath="$PROJECT_DIR$/07-http&amp;&amp;https.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08-浏览器兼容.md" afterPath="$PROJECT_DIR$/08-浏览器兼容.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/01-css.md" afterPath="$PROJECT_DIR$/css/01-css.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/02-css3.md" afterPath="$PROJECT_DIR$/css/02-css3.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/03-盒模型.md" afterPath="$PROJECT_DIR$/css/03-盒模型.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/04-页面布局.md" afterPath="$PROJECT_DIR$/css/04-页面布局.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/05-文本样式.md" afterPath="$PROJECT_DIR$/css/05-文本样式.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/06-文档流-浮动-定位-BFC.md" afterPath="$PROJECT_DIR$/css/06-文档流-浮动-定位-BFC.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/07-background.md" afterPath="$PROJECT_DIR$/css/07-background.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/01-html.md" afterPath="$PROJECT_DIR$/html/01-html.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/01-js基础.md" afterPath="$PROJECT_DIR$/javascript/01-js基础.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/01-语句.md" afterPath="$PROJECT_DIR$/javascript/01-语句.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/01-运算.md" afterPath="$PROJECT_DIR$/javascript/01-运算.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/02-DOM.md" afterPath="$PROJECT_DIR$/javascript/02-DOM.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/02-DOM事件.md" afterPath="$PROJECT_DIR$/javascript/02-DOM事件.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/03-BOM.md" afterPath="$PROJECT_DIR$/javascript/03-BOM.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/04-array.md" afterPath="$PROJECT_DIR$/javascript/04-array.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/04-function.md" afterPath="$PROJECT_DIR$/javascript/04-function.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/04-object.md" afterPath="$PROJECT_DIR$/javascript/04-object.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/05-操作数据.md" afterPath="$PROJECT_DIR$/javascript/05-操作数据.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/06-原型.md" afterPath="$PROJECT_DIR$/javascript/06-原型.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/06-执行上下文对象.md" afterPath="$PROJECT_DIR$/javascript/06-执行上下文对象.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/06-闭包.md" afterPath="$PROJECT_DIR$/javascript/06-闭包.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/07-ES5&amp;&amp;ES6.md" afterPath="$PROJECT_DIR$/javascript/07-ES5&amp;&amp;ES6.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/08-json.md" afterPath="$PROJECT_DIR$/javascript/08-json.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/09-正则表达式.md" afterPath="$PROJECT_DIR$/javascript/09-正则表达式.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/移动端.md" afterPath="$PROJECT_DIR$/mobile/移动端.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/移动端适配.md" afterPath="$PROJECT_DIR$/mobile/移动端适配.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/01-node-js.md" afterPath="$PROJECT_DIR$/node/01-node-js.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node/02-mongoose使用.md" afterPath="$PROJECT_DIR$/node/02-mongoose使用.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shell-frame/01-jQuery.md" afterPath="$PROJECT_DIR$/shell-frame/01-jQuery.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shell-frame/02-angulari.md" afterPath="$PROJECT_DIR$/shell-frame/02-angulari.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shell-frame/03-react.md" afterPath="$PROJECT_DIR$/shell-frame/03-react.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shell-frame/04-vue.md" afterPath="$PROJECT_DIR$/shell-frame/04-vue.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/02-html.md" afterPath="$PROJECT_DIR$/html/02-html5.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,25 +19,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="03-react.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell-frame/03-react.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="459">
+                <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grunt.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build-tool/grunt.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="360">
-                <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+                <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
                 <folding>
-                  <marker date="1496372851276" expanded="true" signature="695:763" ph="..." />
-                  <marker date="1496372851276" expanded="true" signature="695:775" ph="..." />
-                  <marker date="1496372851276" expanded="true" signature="977:1020" ph="{...}" />
-                  <marker date="1496372851276" expanded="true" signature="1481:1581" ph="{...}" />
-                  <marker date="1496372851276" expanded="true" signature="1496:1577" ph="{...}" />
-                  <marker date="1496372851276" expanded="true" signature="1895:1953" ph="{...}" />
-                  <marker date="1496372851276" expanded="true" signature="1908:1948" ph="{&quot;name&quot;: &quot;mm&quot;...}" />
-                  <marker date="1496372851276" expanded="true" signature="2216:2238" ph="{...}" />
-                  <marker date="1496372851276" expanded="true" signature="2450:2549" ph="{...}" />
-                  <marker date="1496372851276" expanded="true" signature="2465:2542" ph="{&quot;stateName1&quot;: stateValue1...}" />
-                  <marker date="1496372851276" expanded="true" signature="2635:2672" ph="{&quot;stateName1&quot;: newValue...}" />
-                  <marker date="1496372851276" expanded="true" signature="2953:2981" ph="//..." />
+                  <marker date="1496385715064" expanded="true" signature="578:700" ph="{...}" />
+                  <marker date="1496385715064" expanded="true" signature="659:694" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -86,144 +48,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04-vue.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell-frame/04-vue.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="240">
-                <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-                <folding>
-                  <marker date="1496373474161" expanded="true" signature="1152:1205" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01-ajax.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-ajax.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="747">
-                <caret line="171" column="14" lean-forward="false" selection-start-line="171" selection-start-column="14" selection-end-line="171" selection-end-column="14" />
-                <folding>
-                  <marker date="1496374147211" expanded="true" signature="1509:1663" ph="{...}" />
-                  <marker date="1496374147211" expanded="true" signature="1588:1628" ph="//..." />
-                  <marker date="1496374147211" expanded="true" signature="2402:2537" ph="{...}" />
-                  <marker date="1496374147211" expanded="true" signature="2457:2533" ph="{...}" />
-                  <marker date="1496374147211" expanded="true" signature="2717:2866" ph="{&quot;type&quot;: 'POST/GET'...}" />
-                  <marker date="1496374147211" expanded="true" signature="3312:3404" ph="{&quot;method&quot;: 'GET/POST'...}" />
-                  <marker date="1496374147211" expanded="true" signature="3429:3449" ph="{...}" />
-                  <marker date="1496374147211" expanded="true" signature="3472:3484" ph="{...}" />
-                  <marker date="1496374147211" expanded="true" signature="3548:3568" ph="{...}" />
-                  <marker date="1496374147211" expanded="true" signature="3591:3603" ph="{...}" />
-                  <marker date="1496374147211" expanded="true" signature="3672:3692" ph="{...}" />
-                  <marker date="1496374147211" expanded="true" signature="3715:3727" ph="{...}" />
-                  <marker date="1496374147211" expanded="true" signature="3860:3888" ph="{...}" />
-                  <marker date="1496374147211" expanded="true" signature="3915:3935" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02-MVC&amp;&amp;MVVM.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-MVC&amp;&amp;MVVM.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="624">
-                <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03-事件机制与线程机制.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-事件机制与线程机制.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="1248">
-                <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04-性能优化.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-性能优化.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="531">
-                <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05-模块化.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-模块化.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="312">
-                <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="06-LESS.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-LESS.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-861">
-                <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-                <folding>
-                  <marker date="1496383436427" expanded="true" signature="219:236" ph="{...}" />
-                  <marker date="1496383436427" expanded="true" signature="219:363" ph="{...}" />
-                  <marker date="1496383436427" expanded="true" signature="243:262" ph="{...}" />
-                  <marker date="1496383436427" expanded="true" signature="243:361" ph="{...}" />
-                  <marker date="1496383436427" expanded="true" signature="269:299" ph="{...}" />
-                  <marker date="1496383436427" expanded="true" signature="269:357" ph="{...}" />
-                  <marker date="1496383436427" expanded="true" signature="306:351" ph="{...}" />
-                  <marker date="1496383436427" expanded="true" signature="411:464" ph="{...}" />
-                  <marker date="1496383436427" expanded="true" signature="516:572" ph="{...}" />
-                  <marker date="1496383436427" expanded="true" signature="697:791" ph="{...}" />
-                  <marker date="1496383436427" expanded="true" signature="852:967" ph="{...}" />
-                  <marker date="1496383436427" expanded="true" signature="1003:1038" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="07-http&amp;&amp;https.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/07-http&amp;&amp;https.md">
+      <file leaf-file-name="gulp.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build-tool/gulp.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="675">
-                <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-                <folding />
+                <caret line="157" column="51" lean-forward="false" selection-start-line="157" selection-start-column="30" selection-end-line="157" selection-end-column="51" />
+                <folding>
+                  <marker date="1496385715143" expanded="true" signature="1701:1946" ph="{...}" />
+                  <marker date="1496385715143" expanded="true" signature="2686:2999" ph="{...}" />
+                  <marker date="1496385715143" expanded="true" signature="3483:3709" ph="{...}" />
+                  <marker date="1496385715143" expanded="true" signature="3554:3703" ph="{...}" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="事件机制原理.PNG" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/事件机制原理.PNG">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="webpack.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build-tool/webpack.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="1107">
+                <caret line="150" column="4" lean-forward="false" selection-start-line="150" selection-start-column="4" selection-end-line="150" selection-end-column="4" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
           </provider>
         </entry>
       </file>
@@ -250,12 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/09-http&amp;&amp;https.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/08-浏览器兼容.md" />
-        <option value="$PROJECT_DIR$/html/02-html.md" />
-        <option value="$PROJECT_DIR$/html/03-from.md" />
-        <option value="$PROJECT_DIR$/html/04-table.md" />
         <option value="$PROJECT_DIR$/html/05-页面加载过程.md" />
         <option value="$PROJECT_DIR$/javascript/06-作用域.md" />
         <option value="$PROJECT_DIR$/javascript/05-js操作数据.md" />
@@ -301,6 +147,12 @@
         <option value="$PROJECT_DIR$/05-模块化.md" />
         <option value="$PROJECT_DIR$/06-LESS.md" />
         <option value="$PROJECT_DIR$/07-http&amp;&amp;https.md" />
+        <option value="$PROJECT_DIR$/08-浏览器兼容.md" />
+        <option value="$PROJECT_DIR$/gulp.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/build-tool/grunt.md" />
+        <option value="$PROJECT_DIR$/build-tool/gulp.md" />
+        <option value="$PROJECT_DIR$/build-tool/webpack.md" />
       </list>
     </option>
   </component>
@@ -438,6 +290,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="前端学习笔记" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="前端学习笔记" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -457,14 +323,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Frontend\前端学习笔记\javascript" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Frontend\前端学习笔记\构建工具" />
       <recent name="D:\Frontend\前端学习笔记\javascript" />
       <recent name="D:\Frontend\前端学习笔记" />
       <recent name="D:\Frontend\前端学习笔记\shell-frame" />
       <recent name="D:\Frontend\前端学习笔记\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Frontend\前端学习笔记\javascript" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -564,15 +431,15 @@
       <workItem from="1495854610058" duration="14458000" />
       <workItem from="1496190659408" duration="17560000" />
       <workItem from="1496277337164" duration="21003000" />
-      <workItem from="1496363432784" duration="13016000" />
+      <workItem from="1496363432784" duration="15457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72980000" />
+    <option name="totallyTimeSpent" value="75421000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19820295" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -622,38 +489,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javascript/循环遍历加监听.md" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="747">
-            <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-浏览器兼容.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1008">
-            <caret line="42" column="3" lean-forward="false" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/06-继承.md" />
-    <entry file="file://$PROJECT_DIR$/css/01-css.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="675">
-            <caret line="137" column="2" lean-forward="false" selection-start-line="137" selection-start-column="2" selection-end-line="137" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/02-css3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1228,6 +1063,77 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="675">
             <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-浏览器兼容.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-165">
+            <caret line="50" column="3" lean-forward="false" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+            <folding>
+              <marker date="1496383876262" expanded="true" signature="56:205" ph="{...}" />
+              <marker date="1496383876262" expanded="true" signature="456:611" ph="{...}" />
+              <marker date="1496383876262" expanded="true" signature="507:522" ph="/*...*/" />
+              <marker date="1496383876262" expanded="true" signature="594:607" ph="/*...*/" />
+              <marker date="1496383876262" expanded="true" signature="950:1204" ph="{...}" />
+              <marker date="1496383876262" expanded="true" signature="1054:1184" ph="{...}" />
+              <marker date="1496383876262" expanded="true" signature="1143:1178" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="459">
+            <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build-tool/grunt.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="360">
+            <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <folding>
+              <marker date="1496385715064" expanded="true" signature="578:700" ph="{...}" />
+              <marker date="1496385715064" expanded="true" signature="659:694" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build-tool/gulp.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="675">
+            <caret line="157" column="51" lean-forward="false" selection-start-line="157" selection-start-column="30" selection-end-line="157" selection-end-column="51" />
+            <folding>
+              <marker date="1496385715143" expanded="true" signature="1701:1946" ph="{...}" />
+              <marker date="1496385715143" expanded="true" signature="2686:2999" ph="{...}" />
+              <marker date="1496385715143" expanded="true" signature="3483:3709" ph="{...}" />
+              <marker date="1496385715143" expanded="true" signature="3554:3703" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build-tool/webpack.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1107">
+            <caret line="150" column="4" lean-forward="false" selection-start-line="150" selection-start-column="4" selection-end-line="150" selection-end-column="4" />
             <folding />
           </first_editor>
           <second_editor />
