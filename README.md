@@ -8,7 +8,7 @@
 
 ## HTML
 * [html简介、标签](/html/01-html.md)
-* [html5的新特性](/html/02-html.md)	
+* [html5的新特性](/html/02-html5.md)	
 * [表格](/html/04-table.md)	
 * [表单](/html/03-from.md)	
 * [页面加载过程](/html/05-页面加载过程.md)

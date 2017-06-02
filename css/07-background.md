@@ -59,7 +59,7 @@
   * 通过该属性可以同时设置所有的背景相关的样式, 
     而且没有顺序和数量的要求
   * 例子：
-    * background:red url() no-repeat center center scroll;
+    * `background:red url() no-repeat center center scroll;`
 ## 透明颜色：
 opacity:
   * 用来设置元素的透明背景
