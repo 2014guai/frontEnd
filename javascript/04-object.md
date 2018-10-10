@@ -88,56 +88,56 @@ var obj = { p: 1 };
   * 动态原型模式
 * 对象的创建模式
 	* 工厂函数创建对象
-    * ```
-      function Person(){
-          var obj = {}
-          obj.name = 'Tom'
-          obj.setAge = function(){
-            this.age = 16
-          }
-          return obj
-        }
-      ```
+```
+function Person(){
+  var obj = {}
+  obj.name = 'Tom'
+  obj.setAge = function(){
+    this.age = 16
+  }
+  return obj
+}
+```
   * Object构造函数模式
-    * ```
-      var obj = {};
-      obj.name = 'Tom';
-      obj.setName = function(name){this.name=name;};
-      ```
+```
+var obj = {};
+obj.name = 'Tom';
+obj.setName = function(name){this.name=name;};
+```
   * 对象字面量模式
-    * ```
-      var obj = {
-          name : 'Tom',
-          setName : function(name){this.name = name;}
-      };
-      ```
+```
+var obj = {
+  name : 'Tom',
+  setName : function(name){this.name = name;}
+};
+```
   * 构造函数模式
-    * ```
-      function Person(name, age) {
-          this.name = name;
-          this.age = age;
-          this.setName = function(name){this.name=name;};
-      }
-      new Person('tom', 12);
-      ```
+```
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+  this.setName = function(name){this.name=name;};
+}
+new Person('tom', 12);
+```
   * 构造函数+原型的组合模式
-    * ```
-      function Person(name, age) {
-          this.name = name;
-          this.age = age;
-      }
-      Person.prototype.setName = function(name){this.name=name;};
-      new Person('tom', 12);
-      ```
+```
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+Person.prototype.setName = function(name){this.name=name;};
+new Person('tom', 12);
+```
 ## 继承模式
 * 原型链继承: 得到方法
-  * ```
-    function Parent(){}
-    Parent.prototype.test = function(){};
-    function Child(){}
-    Child.prototype = new Parent();
-    var child = new Child(); //有test()
-    ```
+```
+function Parent(){}
+Parent.prototype.test = function(){};
+function Child(){}
+Child.prototype = new Parent();
+var child = new Child(); //有test()
+```
 * 借用构造函数&&call(): 得到属性
   * ```
     function Parent(xxx){this.xxx = xxx}
@@ -160,40 +160,40 @@ var obj = { p: 1 };
 ## 拷贝
 * 普通拷贝: 将obj对象赋值给了newObj对象
 * 浅拷贝只复制指向某个对象的指针，而不复制对象本身，新旧对象还是共享同一块内存
-  * ```
-    var obj = {
-        name: 'xiaoming',
-        age: 23
-    };
-    var newObj = obj;
-    newObj.name = 'xiaohua';
-    console.log(obj.name); // 'xiaohua'
-    console.log(newObj.name); // 'xiaohua'
-    ```
+```
+var obj = {
+    name: 'xiaoming',
+    age: 23
+};
+var newObj = obj;
+newObj.name = 'xiaohua';
+console.log(obj.name); // 'xiaohua'
+console.log(newObj.name); // 'xiaohua'
+```
 * 深度拷贝: `Object.assign()`方法进行对象的深拷贝可以避免源对象被篡改的可能
 * 深拷贝会另外创造一个一模一样的对象，新对象跟原对象不共享内存，修改新对象不会改到原对象
-  * ```
-    var obj2 = {
+```
+var obj2 = {
+  name: 'xiaoming',
+  age: 23
+};
+var newObj2 = Object.assign({}, obj2, {color: 'blue'});
+newObj2.name = 'xiaohua';
+console.log(obj2.name); // 'xiaoming'
+console.log(newObj2.name); // 'xiaohua'
+console.log(newObj2.color); // 'blue'
+```
+* 我们也可以使用`Object.create()`方法进行对象的拷贝, `Object.create()`方法可以创建一个具有指定原型对象和属性的新对象
+```
+var obj3 = {
       name: 'xiaoming',
       age: 23
-    };
-    var newObj2 = Object.assign({}, obj2, {color: 'blue'});
-    newObj2.name = 'xiaohua';
-    console.log(obj2.name); // 'xiaoming'
-    console.log(newObj2.name); // 'xiaohua'
-    console.log(newObj2.color); // 'blue'
-    ```
-* 我们也可以使用`Object.create()`方法进行对象的拷贝, `Object.create()`方法可以创建一个具有指定原型对象和属性的新对象
-  * ```
-    var obj3 = {
-          name: 'xiaoming',
-          age: 23
-    };
-    var newObj3 = Object.create(obj3);
-    newObj3.name = 'xiaohua';
-    console.log(obj3.name); // 'xiaoming'
-    console.log(newObj3.name); // 'xiaohua'
-    ```   
+};
+var newObj3 = Object.create(obj3);
+newObj3.name = 'xiaohua';
+console.log(obj3.name); // 'xiaoming'
+console.log(newObj3.name); // 'xiaohua'
+```   
 * 实例
 ```
 let a ={}
