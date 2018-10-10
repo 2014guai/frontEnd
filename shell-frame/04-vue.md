@@ -146,3 +146,8 @@
   //script标签中
   Vue.component('temp', Temp)
   ```
+## 组件通信
+* 父传子用props
+* 父用子用ref
+* 子调父用$emit
+* 无关系用Bus

@@ -7,12 +7,14 @@
   * 自定义对象: 开发人员自己定义的对象
 ## 目录
 * [对象](#对象)
-* [基本数据类型与引用数据类型](#基本数据类型与引用数据类型)
+* [对象的方法](#对象的方法)
+* [对象的实例方法](#对象的实例方法)
 * [创建对象](#创建对象)
+* [继承模式](#继承模式)
+* [拷贝](#拷贝)
+* [基本数据类型与引用数据类型](#基本数据类型与引用数据类型)
 * [对象属性的增删改查](#对象属性的增删改查)
-* [自定义对象](#自定义对象)
-* [自定义对象](#自定义对象)
-* [自定义对象](#自定义对象)
+* [圾回收（GC）](#圾回收（GC）)
 ***
 
 ## 对象
@@ -30,6 +32,53 @@
 * 特别的对象
   * 数组
   * 函数
+## 对象的方法
+* 属性的读取
+```
+var obj = {
+  foo: 1,
+  bar: 2
+};
+
+obj.foo  // 1
+obj[foo] // 1
+```
+* 属性的赋值
+```
+var obj = {};
+
+obj.foo = 'Hello';
+obj['bar'] = 'World';
+```
+* 属性的查看, Object.keys: 查看一个对象本身的所有属性
+``` 
+var obj = {
+  key1: 1,
+  key2: 2
+};
+
+Object.keys(obj); // ['key1', 'key2']
+```
+* 属性的删除
+```
+var obj = { p: 1 };
+delete obj.p // true
+obj.p // undefined
+```
+* 属性是否存在
+```
+var obj = { p: 1 };
+'p' in obj // true
+'toString' in obj // true
+```
+## 对象的实例方法
+* 即对象原型的方法
+* Object.prototype.valueOf()：返回当前对象对应的值。
+* Object.prototype.toString()：返回当前对象对应的字符串形式。
+* Object.prototype.toLocaleString()：返回当前对象对应的本地字符串形式。
+* Object.prototype.hasOwnProperty()：判断某个属性是否为当前对象自身的属性，还是继承自原型对象的属性。
+* Object.prototype.isPrototypeOf()：判断当前对象是否为另一个对象的原型。
+* Object.prototype.propertyIsEnumerable()：判断某个属性是否可枚举。
 ## 创建对象
 * 分类
   * 工厂模式
@@ -110,6 +159,7 @@
   ```
 ## 拷贝
 * 普通拷贝: 将obj对象赋值给了newObj对象
+* 浅拷贝只复制指向某个对象的指针，而不复制对象本身，新旧对象还是共享同一块内存
   * ```
     var obj = {
         name: 'xiaoming',
@@ -121,6 +171,7 @@
     console.log(newObj.name); // 'xiaohua'
     ```
 * 深度拷贝: `Object.assign()`方法进行对象的深拷贝可以避免源对象被篡改的可能
+* 深拷贝会另外创造一个一模一样的对象，新对象跟原对象不共享内存，修改新对象不会改到原对象
   * ```
     var obj2 = {
       name: 'xiaoming',
@@ -143,6 +194,16 @@
     console.log(obj3.name); // 'xiaoming'
     console.log(newObj3.name); // 'xiaohua'
     ```   
+* 实例
+```
+let a ={}
+//浅拷贝
+let b = a
+//深复制包含子对象
+let c = JSON.parse(JSON.stringify(a))
+//拷贝一层但不包含子对象
+let d = {...a}
+``` 
 ## 基本数据类型与引用数据类型
 * 内存
   * 内存分为两种结构：栈内存和堆内存
