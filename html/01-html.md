@@ -56,17 +56,6 @@
 ## doctype
 * 文档声明, 告诉浏览器网页的版本
 * html5：`<!doctype html>`
-## meta标签
-* 设置页面中字符集
-  * `<meta charset="utf-8" />`
-* 设置当前页面的关键字
-  * `<meta name="keywords" content="关键字1,关键字2,关键字N" />`
-* 设置当前页面的描述（简介）
-  * `<meta name="description" content="网页的描述" />`
-*  设置页面的重定向
-  * `<meta http-equiv="refresh" content="秒数;url=目标地址" />`
-*  通过meta来为网页设置关键字和描述, 会被搜索引擎检索
-  * 并且会在搜索结果中显示出来, 但是并不会影响页面的排名
 ## css、js引入
 * css: `<link rel="stylesheet" href="文件相对路径">`
 * js: `<script type="text/javascript" src="文件相对路径"></script>`

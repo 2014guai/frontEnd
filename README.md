@@ -8,10 +8,11 @@
 
 ## HTML
 * [html简介、标签](/html/01-html.md)
-* [html5的新特性](/html/02-html5.md)	
-* [表格](/html/04-table.md)	
-* [表单](/html/03-from.md)	
-* [页面加载过程](/html/05-页面加载过程.md)
+* [meta标签](/html/02-meta标签.md)
+* [html5的新特性](/html/03-html5.md)	
+* [表单](/html/04-from.md)	
+* [表格](/html/05-table.md)	
+* [页面加载过程](/html/06-页面加载过程.md)
 
 ## CSS
 * [css简介、选择器](/css/01-css.md)
