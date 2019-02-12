@@ -18,12 +18,15 @@
 ## 新特性：
 ### 语义化标签：
 * 新增：`section`-文章、`nav`-导航、`aside`-侧边栏
+
+    ![](/images/html5-label.jpg "html5标签")
 * 作用：
 	* 对SEO友好
 	* 技术趋势, 更符合w3c标准
 	* 没有样式时, 浏览器的默认样式也能让页面结构清晰
 	* 对功能障碍用户(残障用户)友好
 	* 对其他非主流终端设备友好, 移动端、机顶盒等
+* 示例：
 	![](/images/layout.png "html5经典页面设计")
 * 注意：
     * 尽可能少的使用无语义的标签div和span；
@@ -31,7 +34,6 @@
     * 使用表格时，标题要用caption，表头用thead，主体部分用tbody包围，尾部用tfoot包围。表头和一般单元格要区分开，表头用th，单元格用td；
     * 表单域要用fieldset标签包起来，并用legend标签说明表单的用途；
     * 每个input标签对应的说明文本都需要使用label标签，并且通过为input设置id属性，在lable标签中设置for=someld来让说明文本和相对应的input关联起来。
-    ![](/images/html5-label.jpg "html5标签")
 ### 离线缓存
 * localStorage：本地离线缓存, 长期储存数据, 浏览器关闭后数据不会丢失
 * sessionStorage：浏览器关闭后数据自动删除
