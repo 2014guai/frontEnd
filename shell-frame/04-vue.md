@@ -147,7 +147,8 @@
   Vue.component('temp', Temp)
   ```
 ## 组件通信
-* 父传子用props
-* 父用子用ref
-* 子调父用$emit
-* 无关系用Bus
+* 组件通信
+  * 父传子用`props`
+  * 父用子用`ref`
+  * 子调父用`$emit`
+  * 无关系用`Bus`

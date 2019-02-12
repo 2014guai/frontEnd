@@ -49,6 +49,7 @@
 ## navigator
 * navigator对象包含了浏览器的版本、浏览器所支持的插件、浏览器所使用的语言等各种与浏览器相关的信息
 * 我们有时会使用navigator的userAgent属性来检查用户浏览器的版本
+  ![](/images/navigator.jpg "navigator属性")
 ## screen
 * screen对象基本上只用来表明客户端的能力, 其中包括浏览器窗口外部的显示器的信息, 如像素宽度和高度等
 * 一般不太用
