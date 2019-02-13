@@ -68,10 +68,3 @@
 * [MV*](/02-MVC&&MVVM.md)
 * [浏览器兼容](/08-浏览器兼容.md)
 
-
-
-Sass
-工程化
-gulp、webpack、NodeJS
-
-在线文档平台也不能错过 http://devdocs.io
