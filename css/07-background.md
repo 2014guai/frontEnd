@@ -43,7 +43,8 @@
     * 图片整合只适用于背景图片, 不会搜索引擎检索
     * 图片整合中的图片不能自适应大小, 不能调整大小
     * 一般我们使用图片整合技术都是设置一些小图片, 小logo等等
-  * CSS-Script图片：![](/images/购物车.png)
+  * CSS-Script图片：
+  ![](/images/购物车.png "css-script图例")
 ## background-attachment
 * 设置背景图片是否随页面滚动
 * 可选值：
