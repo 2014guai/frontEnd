@@ -22,6 +22,7 @@
 * [文档流、浮动、定位、BFC](/css/06-文档流-浮动-定位-BFC-层叠等级.md)
 * [背景](/css/07-background.md)
 * [页面布局](/css/04-页面布局.md)
+* [动画](/css/08-动画.md)
 
 ## javascript
 * [js基础](/javascript/01-js基础.md)
