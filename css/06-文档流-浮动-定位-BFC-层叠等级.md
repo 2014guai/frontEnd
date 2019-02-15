@@ -102,13 +102,14 @@
     即使父元素的层级再高, 也不会盖住子元素
 ## BFC
   * 根据W3C的规定, 每一个元素都有一个隐含的属性--`BFC`
-  * BFC(Block Formatting Context)块级格式化环境
+  * BFC(Block Formatting Context)块级格式化环境/块级格式化上下文
+  * BFC：是一个独立的渲染区域，让处于 BFC 内部的元素与外部的元素相互隔离，使内外元素的定位不会相互影响。
   * BFC在网页默认是关闭, 可以通过一些属性来开启
   * 如何开启BFC：
     * 可以设置元素: `display: inline-block;`
     * 可以设置元素: `position: absolute;`
     * 设置: `overflow: hidden; //副作用最小`
-    * 设置元素浮动float
+    * 设置元素浮动：`float`
   * 开启BFC以后, 元素会具有如下功能：
     * 子元素的垂直外边距不会与父元素的垂直外边距重叠
     * 开启BFC的元素不会被浮动元素所覆盖
@@ -148,3 +149,13 @@
       * 不兼容IE6了
   * 开启父元素的BFC
 	  * 如上BFC
+## 层叠上下文
+* 元素提升为一个比较特殊的图层，在三维空间中 (z轴) 高出普通元素一等。
+* 触发条件
+  * 根层叠上下文(html)
+  * position
+  * css3属性: flex、transform、opacity、filter、will-change、 -webkit-overflow-scrolling
+* 层叠等级：层叠上下文在z轴上的排序
+  * 在同一层叠上下文中，层叠等级才有意义
+  * z-index的优先级最高
+  ![](/images/层叠等级.jpg "层叠等级")
