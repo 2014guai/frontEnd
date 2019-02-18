@@ -27,7 +27,7 @@
   * 方法: 属性值为function的属性, 描述对象的行为
 * new一个对象背后做了些什么?
    * 创建一个空对象
-   * 给对象设置__proto__, 值为构造函数对象的prototype属性值
+   * 给对象设置`__proto__`, 值为构造函数对象的`prototype`属性值
    * 执行构造函数体(给对象添加属性/方法)
 * 特别的对象
   * 数组
@@ -84,12 +84,12 @@ var obj = { p: 1 };
 ```
 ## 对象的实例方法
 * 即对象原型的方法
-* Object.prototype.valueOf()：返回当前对象对应的值。
-* Object.prototype.toString()：返回当前对象对应的字符串形式。
-* Object.prototype.toLocaleString()：返回当前对象对应的本地字符串形式。
-* Object.prototype.hasOwnProperty()：判断某个属性是否为当前对象自身的属性，还是继承自原型对象的属性。
-* Object.prototype.isPrototypeOf()：判断当前对象是否为另一个对象的原型。
-* Object.prototype.propertyIsEnumerable()：判断某个属性是否可枚举。
+* `Object.prototype.valueOf()`：返回当前对象对应的值。
+* `Object.prototype.toString()`：返回当前对象对应的字符串形式。
+* `Object.prototype.toLocaleString()`：返回当前对象对应的本地字符串形式。
+* `Object.prototype.hasOwnProperty()`：判断某个属性是否为当前对象自身的属性，还是继承自原型对象的属性。
+* `Object.prototype.isPrototypeOf()`：判断当前对象是否为另一个对象的原型。
+* `Object.prototype.propertyIsEnumerable()`：判断某个属性是否可枚举。
 ## 创建对象
 * 分类
   * 工厂模式
@@ -252,7 +252,6 @@ let d = {...a}
 
     
 
-  
   
   
   
