@@ -35,52 +35,52 @@
 ## 对象的属性
 * JavaScript 提供了一个内部数据结构，用来描述对象的属性，控制它的行为
 ```
-{
-  value: undefined,
-  writable: true,
-  enumerable: true,			// 是否可遍历
-  configurable: true,		// 可配置性，控制了属性描述对象的可写性
-  get: undefined,
-  set: undefined
-}
+  {
+    value: undefined,
+    writable: true,
+    enumerable: true,			// 是否可遍历
+    configurable: true,		// 可配置性，控制了属性描述对象的可写性
+    get: undefined,
+    set: undefined
+  }
 ```
 * 属性的读取
 ```
-var obj = {
-  foo: 1,
-  bar: 2
-};
-
-obj.foo  // 1
-obj[foo] // 1
+  var obj = {
+    foo: 1,
+    bar: 2
+  };
+  
+  obj.foo  // 1
+  obj[foo] // 1
 ```
 * 属性的赋值
 ```
-var obj = {};
-
-obj.foo = 'Hello';
-obj['bar'] = 'World';
+  var obj = {};
+  
+  obj.foo = 'Hello';
+  obj['bar'] = 'World';
 ```
 * 属性的查看, Object.keys: 查看一个对象本身的所有属性
 ``` 
-var obj = {
-  key1: 1,
-  key2: 2
-};
-
-Object.keys(obj); // ['key1', 'key2']
+  var obj = {
+    key1: 1,
+    key2: 2
+  };
+  
+  Object.keys(obj); // ['key1', 'key2']
 ```
 * 属性的删除
 ```
-var obj = { p: 1 };
-delete obj.p // true
-obj.p // undefined
+  var obj = { p: 1 };
+  delete obj.p // true
+  obj.p // undefined
 ```
 * 属性是否存在
 ```
-var obj = { p: 1 };
-'p' in obj // true
-'toString' in obj // true
+  var obj = { p: 1 };
+  'p' in obj // true
+  'toString' in obj // true
 ```
 ## 对象的实例方法
 * 即对象原型的方法
@@ -100,120 +100,140 @@ var obj = { p: 1 };
 * 对象的创建模式
 	* 工厂函数创建对象
 ```
-function Person(){
-  var obj = {}
-  obj.name = 'Tom'
-  obj.setAge = function(){
-    this.age = 16
+  function Person(){
+    var obj = {}
+    obj.name = 'Tom'
+    obj.setAge = function(){
+      this.age = 16
+    }
+    return obj
   }
-  return obj
-}
 ```
   * Object构造函数模式
 ```
-var obj = {};
-obj.name = 'Tom';
-obj.setName = function(name){this.name=name;};
+  var obj = {};
+  obj.name = 'Tom';
+  obj.setName = function(name){this.name=name;};
 ```
   * 对象字面量模式
 ```
-var obj = {
-  name : 'Tom',
-  setName : function(name){this.name = name;}
-};
+  var obj = {
+    name : 'Tom',
+    setName : function(name){this.name = name;}
+  };
 ```
   * 构造函数模式
 ```
-function Person(name, age) {
-  this.name = name;
-  this.age = age;
-  this.setName = function(name){this.name=name;};
-}
-new Person('tom', 12);
+  function Person(name, age) {
+    this.name = name;
+    this.age = age;
+    this.setName = function(name){this.name=name;};
+  }
+  new Person('tom', 12);
 ```
   * 构造函数+原型的组合模式
 ```
-function Person(name, age) {
-  this.name = name;
-  this.age = age;
-}
-Person.prototype.setName = function(name){this.name=name;};
-new Person('tom', 12);
+  function Person(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  Person.prototype.setName = function(name){this.name=name;};
+  new Person('tom', 12);
 ```
 ## 继承模式
 * 原型链继承: 得到方法
 ```
-function Parent(){}
-Parent.prototype.test = function(){};
-function Child(){}
-Child.prototype = new Parent();
-var child = new Child(); //有test()
+  function Parent(){}
+  Parent.prototype.test = function(){};
+  function Child(){}
+  Child.prototype = new Parent();
+  var child = new Child(); //有test()
 ```
 * 借用构造函数&&call(): 得到属性
-  * ```
-    function Parent(xxx){this.xxx = xxx}
-    Parent.prototype.test = function(){};
-    function Child(xxx,yyy){
-        Parent.call(this, xxx);//借用构造函数   this.Parent(xxx)
-    }
-    var child = new Child('a', 'b');  //child.xxx为'a', 但child没有test()
-    ```
-* 组合
-* ```
+```
   function Parent(xxx){this.xxx = xxx}
   Parent.prototype.test = function(){};
   function Child(xxx,yyy){
       Parent.call(this, xxx);//借用构造函数   this.Parent(xxx)
   }
-  Child.prototype = new Parent(); //得到test()
-  var child = new Child(); //child.xxx为'a', 也有test()
+  var child = new Child('a', 'b');  //child.xxx为'a', 但child没有test()
+```
+* 组合
+* 组合继承, 有时候也叫做伪经典继承,指的是将原型链和借用构造函数的技术组合到一块,从而发挥两者之长的一种继承模式.
+```
+  function Father(name){
+    this.name = name;
+    this.colors = ["red","blue","green"];
+  }
+  Father.prototype.sayName = function(){
+    alert(this.name);
+  };
+  function Son(name,age){
+    Father.call(this,name);//继承实例属性，第一次调用Father()
+    this.age = age;
+  }
+  Son.prototype = new Father();//继承父类方法,第二次调用Father()
+  Son.prototype.sayAge = function(){
+    alert(this.age);
+  }
+  
+  var instance1 = new Son("louis",5);
+  instance1.colors.push("black");
+  console.log(instance1.colors);//"red,blue,green,black"
+  instance1.sayName();//louis
+  instance1.sayAge();//5
+  
+  var instance1 = new Son("zhai",10);
+  console.log(instance1.colors);//"red,blue,green"
+  instance1.sayName();//zhai
+  instance1.sayAge();//10
   ```
 ## 拷贝
 * 普通拷贝: 将obj对象赋值给了newObj对象
 * 浅拷贝只复制指向某个对象的指针，而不复制对象本身，新旧对象还是共享同一块内存
 ```
-var obj = {
-    name: 'xiaoming',
-    age: 23
-};
-var newObj = obj;
-newObj.name = 'xiaohua';
-console.log(obj.name); // 'xiaohua'
-console.log(newObj.name); // 'xiaohua'
+  var obj = {
+      name: 'xiaoming',
+      age: 23
+  };
+  var newObj = obj;
+  newObj.name = 'xiaohua';
+  console.log(obj.name); // 'xiaohua'
+  console.log(newObj.name); // 'xiaohua'
 ```
 * 深度拷贝: `Object.assign()`方法进行对象的深拷贝可以避免源对象被篡改的可能
 * 深拷贝会另外创造一个一模一样的对象，新对象跟原对象不共享内存，修改新对象不会改到原对象
 ```
-var obj2 = {
-  name: 'xiaoming',
-  age: 23
-};
-var newObj2 = Object.assign({}, obj2, {color: 'blue'});
-newObj2.name = 'xiaohua';
-console.log(obj2.name); // 'xiaoming'
-console.log(newObj2.name); // 'xiaohua'
-console.log(newObj2.color); // 'blue'
+  var obj2 = {
+    name: 'xiaoming',
+    age: 23
+  };
+  var newObj2 = Object.assign({}, obj2, {color: 'blue'});
+  newObj2.name = 'xiaohua';
+  console.log(obj2.name); // 'xiaoming'
+  console.log(newObj2.name); // 'xiaohua'
+  console.log(newObj2.color); // 'blue'
 ```
 * 我们也可以使用`Object.create()`方法进行对象的拷贝, `Object.create()`方法可以创建一个具有指定原型对象和属性的新对象
 ```
-var obj3 = {
-      name: 'xiaoming',
-      age: 23
-};
-var newObj3 = Object.create(obj3);
-newObj3.name = 'xiaohua';
-console.log(obj3.name); // 'xiaoming'
-console.log(newObj3.name); // 'xiaohua'
+  var obj3 = {
+        name: 'xiaoming',
+        age: 23
+  };
+  var newObj3 = Object.create(obj3);
+  newObj3.name = 'xiaohua';
+  console.log(obj3.name); // 'xiaoming'
+  console.log(newObj3.name); // 'xiaohua'
 ```   
 * 实例
 ```
-let a ={}
-//浅拷贝
-let b = a
-//深复制包含子对象
-let c = JSON.parse(JSON.stringify(a))
-//拷贝一层但不包含子对象
-let d = {...a}
+  let a ={}
+  //浅拷贝
+  let b = a
+  //深复制包含子对象
+  let c = JSON.parse(JSON.stringify(a))
+  //拷贝一层但不包含子对象
+  let d = {...a}
 ``` 
 ## 基本数据类型与引用数据类型
 * 内存
@@ -247,16 +267,3 @@ let d = {...a}
 * 当一个对象没有任何的变量对其引用时, 这种对象我们就认为是垃圾, 需要清理出内存
 * 在JS中拥有自动的垃圾处理的机制, 这些垃圾对象会自动被JS引擎所回收, 不需要我们手动处理
 * 我们只需要将不再使用的对象和变量之间的引用断开即可	
-
-
-
-    
-
-  
-  
-  
-  
-  
-  
-  
-  
