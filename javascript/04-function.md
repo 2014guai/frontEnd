@@ -104,8 +104,11 @@
   * apply 、 call 、bind 三者第一个参数都是this要指向的对象，也就是想指定的上下文；
   * apply 、 call 、bind 三者都可以利用后续参数传参；
   * bind 是返回对应函数，便于稍后调用；apply 、call 则是立即调用 
-* 函数对象.call(this对象, 实参1, 实参2, 实参N)
-* 函数对象.apply(this对象, [实参的数组])
+  ```
+  call: fn.call(target, 1, 2)
+  apply: fn.apply(target, [1, 2])
+  bind: fn.bind(target)(1,2)
+  ```
 ## IIFE
 * 为什么会有IIFE
   * 在javascript中, 每一个函数在被调用的时候都会创建一个执行上下文

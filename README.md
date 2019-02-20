@@ -23,6 +23,7 @@
 * [背景](/css/07-background.md)
 * [页面布局](/css/04-页面布局.md)
 * [动画](/css/08-动画.md)
+* [重绘和回流](/css/09-重绘和回流.md)
 
 ## javascript
 * [js基础](/javascript/01-js基础.md)
@@ -42,6 +43,7 @@
 * [作用域](/javascript/06-作用域.md)
 * [执行上下文对象、变量提升](/javascript/06-执行上下文对象.md)
 * [闭包](/javascript/06-闭包.md)
+* [防抖和节流](/javascript/06-防抖和节流.md)
 * [JSON](/javascript/08-json.md)
 * [ES5&&ES6](/javascript/07-ES5&&ES6.md)
 
